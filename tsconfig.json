@@ -11,10 +11,21 @@
             "es2016",
             "dom"
         ],
+        "paths": {
+            "@angular/common": [
+                "node_modules/@angular/common"
+            ],
+            "@angular/core": [
+                "node_modules/@angular/core"
+            ],
+            "rxjs/*": [
+                "node_modules/rxjs/*"
+            ]
+        },
         "mapRoot": "./",
         "module": "es2015",
         "moduleResolution": "node",
-        "outDir": "../dist/out-tsc",
+        "outDir": "./dist",
         "sourceMap": true,
         "target": "es5",
         "typeRoots": [
