@@ -1,8 +1,10 @@
 {
     "name": "angular2-folder-view",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "license": "MIT",
-    "scripts": {},
+    "scripts": {
+        "testBuild": "node node_modules/tslint/bin/tslint --project . && node node_modules/typescript/bin/tsc"
+    },
     "private": true,
     "dependencies": {
         "@angular/common": "^2.4.0",
@@ -13,10 +15,10 @@
         "@angular/common": "^2.4.0",
         "@angular/core": "^2.4.0",
         "@angular/compiler": "^2.4.0",
-        "@angular/compiler-cli": "^2.4.0",
         "rxjs": "^5.1.0",
-        "ts-node": "~2.0.0",
-        "tslint": "~4.4.2",
-        "typescript": "~2.0.0"
+        "ts-node": "^2.1.0",
+        "tslint": "^4.4.2",
+        "typescript": "^2.1.0",
+        "zone.js": "^0.7.2"
     }
 }

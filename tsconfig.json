@@ -5,13 +5,13 @@
         "declaration": false,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
-        "strictNullChecks": true,
         "noEmitOnError": true,
         "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
         "noImplicitReturns": true,
         "noImplicitThis": true,
         "noUnusedLocals": true,
+        "suppressImplicitAnyIndexErrors": true,
         "removeComments": true,
         "lib": [
             "es2016",
@@ -26,6 +26,9 @@
             ],
             "rxjs/*": [
                 "node_modules/rxjs/*"
+            ],
+            "model/*": [
+                "model/*"
             ]
         },
         "mapRoot": "./",
@@ -37,5 +40,8 @@
         "typeRoots": [
             "../node_modules/@types"
         ]
-    }
+    },
+    "exclude": [
+        "node_modules"
+    ]
 }

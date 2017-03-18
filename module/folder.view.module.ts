@@ -1,6 +1,6 @@
-import { NgModule }           from '@angular/core';
-import { CommonModule }       from '@angular/common';
-import { FolderViewComponent } from './folder.view.component';
+import { NgModule }           from "@angular/core";
+import { CommonModule }       from "@angular/common";
+import { FolderViewComponent } from "./folder.view.component";
 
 @NgModule({
   imports:      [ CommonModule ],

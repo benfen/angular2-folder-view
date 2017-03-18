@@ -1,9 +1,9 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit } from "@angular/core";
 
 @Component({
-    moduleId: module.id,
-    selector: 'folder-view',
-    templateUrl: 'folder.view.component.html'
+    selector: "folder-view",
+    styleUrls: [],
+    templateUrl: "folder.view.component.html"
 })
 export class FolderViewComponent implements OnInit {
     constructor() { }
