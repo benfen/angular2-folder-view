@@ -1,1 +1,1 @@
-export { FolderViewModule } from "./module/folder.view.module";
+export { FolderViewModule } from "./src/folder.view.module";

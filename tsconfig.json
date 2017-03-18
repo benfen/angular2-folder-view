@@ -28,7 +28,7 @@
                 "node_modules/rxjs/*"
             ],
             "model/*": [
-                "model/*"
+                "src/model/*"
             ]
         },
         "mapRoot": "./",
