@@ -1,11 +1,17 @@
 {
     "compilerOptions": {
+        "alwaysStrict": true,
         "baseUrl": "",
         "declaration": false,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "strictNullChecks": true,
+        "noEmitOnError": true,
+        "noFallthroughCasesInSwitch": true,
         "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noUnusedLocals": true,
         "removeComments": true,
         "lib": [
             "es2016",
@@ -31,9 +37,5 @@
         "typeRoots": [
             "../node_modules/@types"
         ]
-    },
-    "angularCompilerOptions": {
-        "strictMetadataEmit": true,
-        "skipTemplateCodegen": true
     }
 }
