@@ -3,6 +3,9 @@ import { PathItem } from "./path.item.interface";
 
 export class Folder implements PathItem {
 
-    constructor(public name: string, public path: string, public fileType: FileType, public items: PathItem[]) { }
+    fileType: FileType = FileType.FILE;
+    path: string = "";
+
+    constructor(public name: string, public items: PathItem[]) { }
 
 }

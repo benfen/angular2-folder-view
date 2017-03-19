@@ -1,6 +1,6 @@
 {
     "name": "angular2-folder-view",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "license": "MIT",
     "scripts": {
         "testBuild": "node node_modules/tslint/bin/tslint --project . && node node_modules/typescript/bin/tsc"

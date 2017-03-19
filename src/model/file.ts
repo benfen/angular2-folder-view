@@ -3,6 +3,8 @@ import { PathItem } from "./path.item.interface";
 
 export class File implements PathItem {
 
-    constructor(public name: string, public path: string, public fileType: FileType) { }
+    path: string = "";
+
+    constructor(public name: string, public fileType: FileType) { }
 
 }
